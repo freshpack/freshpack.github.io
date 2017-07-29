@@ -1,0 +1,224 @@
+@import 'hamburgers.css';
+
+html, body { 
+	margin: 0; 
+	padding: 0; 
+	width: 100%; 
+	height: 100%;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	min-height: 80px;
+	background: #fff;
+	border-bottom: 1px solid #AAA;
+	text-align: center;
+	z-index: 1000;
+}
+
+nav {
+	min-height: 100%;
+	margin: 0 auto;
+}
+nav ul {
+	margin: 20px 0 0;
+	padding: 0;
+}
+@media only screen and (max-width : 768px) {
+  nav ul {
+		display: none;
+		margin-top: 55px;
+		margin-bottom: 25px;
+	}
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 30px 0 0;
+}
+@media only screen and (max-width : 768px) {
+  nav ul li {
+		display: block;
+		/* text-align: right; */
+	}
+}
+
+nav ul li a { 
+	text-transform: uppercase; 
+	line-height: 42px; 
+	font-size: 1.4rem;
+}
+
+a { 
+	color: #4D4D4D; 
+	text-decoration: none; 
+}
+
+.active { 
+	/* color: #2dbccb; */ 
+	color: rgb(142,174,41);
+}
+
+.content { 
+	max-width: 100%; 
+	min-height: 100%;
+}
+.content > section { 
+	height: 100%;
+}
+.content > section > article { 
+	height: 100%;  
+	padding: 120px 0;
+	width: 714px;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	text-align: left;
+}
+@media only screen and (max-width : 768px) {
+  .content > section > article { 
+		width: 90%;
+		margin: 0 5%;
+	}
+}
+.content > section:nth-child(2n+2) {
+	background: #F8F8F8;
+}
+
+.content > section > article a { 
+	color: blue;
+}
+
+pre {
+	white-space: pre-wrap; 
+	background: #EEE;
+	padding: 11px;
+	line-height: 1.6rem;
+	font-size: 1.4rem;
+} 
+
+blockquote {
+	padding: 0 1em;
+	color: #6a737d;
+	border: 1px solid #dfe2e5;
+	border-left: 0.5rem solid #dfe2e5;
+	margin: 0;
+}
+
+#home blockquote {
+	color: #eee;
+	border: none;
+	border-left: 0.5rem solid #eee;
+}
+
+#home article {
+	font-size: 1.7rem;
+	color: #FFF;
+	text-align: center;
+}
+
+#home h1 {
+	font-size: 3.9rem;	
+	margin: 0;
+}
+
+#home h3 {
+	position: relative;
+	top: -30px;
+}
+
+#home article > p:first-child,
+#home p a,
+#home p img {
+	display: none;	
+}
+
+#home span {
+	display: inline-block;
+	position: relative;
+	left: 30px;
+	top: -20px;
+}
+
+#home .span-1 {
+	padding: 3px 20px 2px;
+	background-color: #FFF;
+	color: rgb(142,174,41);
+	left: -20px;
+	font-size: 1.65em;
+}
+
+#home .span-2 {
+	padding: 3px 18px 2px;
+	background-color: #222;
+	color: #eee;
+	font-size: 1.4em;
+	left: -10px;
+	margin-top: 20px;
+	transform: rotate(358.5deg);
+	font-style: italic;
+}
+
+#home .span-3 {
+	padding: 3px 18px 2px;
+	background-color: #222;
+	color: #eee;
+	left: 50px;	
+	margin-top: 6px;
+	font-size: 2.4em;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width : 768px) {
+	#home .span-1 {
+		padding: 3px 12px 2px;
+		font-size: 1.3em;
+	}
+
+	#home .span-2 {
+		padding: 3px 12px 2px;
+		font-size: 1.1em;
+	}
+
+	#home .span-3 {
+		padding: 3px 12px 2px;
+		margin-top: 6px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+  #home br {
+		display: none  !important;
+	}
+  #home span {
+		display: inline  !important;
+	  left: 0 !important;
+		top: 0  !important;
+		padding: inherit  !important;
+	  background-color: transparent !important;
+	  color: inherit !important;
+		font-size: inherit !important;
+		text-transform: inherit !important;
+	}
+}
+
+#home blockquote {
+	display: none;
+}
+
+.hamburger{
+	transform: scale(0.7);
+	display: none;
+	position: fixed;
+	right: 20px;
+	top: 12px;
+
+}
+@media only screen and (max-width : 768px) {
+  .hamburger{
+		display: block;
+	}
+}
