@@ -1,0 +1,13 @@
+{
+  "name": "freshpack.github.io",
+  "version": "1.0.0",
+  "description": "freshpack website",
+  "main": "index.js",
+  "repository": "git@github.com:freshpack/freshpack.github.io.git",
+  "author": "up <me@ulipreuss.eu>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.3.0",
+    "eslint-plugin-jquery": "^1.2.1"
+  }
+}
