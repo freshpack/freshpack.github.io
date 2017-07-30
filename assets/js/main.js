@@ -30,7 +30,7 @@
       item += '<li><a href="#' + id + '">' + title + '</a></li>';
     });
 
-    item += '<li><a href="https://github.com/freshpack/freshpack">Source</a></li>';
+    item += '<li><a href="https://github.com/freshpack/freshpack">Code</a></li>';
     item += '</ul>';
     
     print(item, 'header nav');

@@ -14,9 +14,9 @@ header {
 	background: #fff;
 	border-bottom: 1px solid #AAA;
 	text-align: center;
-	z-index: 1000;
-}
-@media only screen and (max-width : 768px) and (orientation:landscape)  {
+  z-index: 1000;
+  
+} @media only screen and (max-width : 768px) and (orientation:landscape)  {
   header {
 	  min-height: 48px;
 	}
@@ -30,13 +30,11 @@ header h3 {
 	font-size: 1.9rem;
 	margin: 0;
 	opacity: 0.4;
-}
-@media only screen and (max-width : 768px) {
+} @media only screen and (max-width : 768px) {
   header h3 {
 		display: block;
 	}
-}
-@media only screen and (max-width : 768px) and (orientation:landscape)  {
+} @media only screen and (max-width : 768px) and (orientation:landscape)  {
   header h3 {
 		top: 6px;
 	}
@@ -50,18 +48,18 @@ nav {
 	min-height: 100%;
 	margin: 0 auto;
 }
+
 nav ul {
 	margin: 20px 0 0;
-	padding: 0;
-}
-@media only screen and (max-width : 768px) {
+  padding: 0;
+  
+} @media only screen and (max-width : 768px) {
   nav ul {
 		display: none;
 		margin-top: 48px;
 		margin-bottom: 25px;
 	}
-}
-@media only screen and (max-width : 768px) and (orientation:landscape)  {
+} @media only screen and (max-width : 768px) and (orientation:landscape)  {
   nav ul {
 		width: 70%;
 		margin: 48px auto 20px;
@@ -77,7 +75,6 @@ nav ul li {
   nav ul li {
 		display: block;
   }
-  
 } @media only screen and (max-width : 768px) and (orientation:landscape)  {
   nav ul li {
 		display: inline-block;

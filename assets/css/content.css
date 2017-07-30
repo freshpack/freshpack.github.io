@@ -64,7 +64,8 @@
 
 #home h3 {
 	position: relative;
-	top: -30px;
+  top: -30px;
+  
 } @media only screen and (max-width : 768px) and (orientation:landscape)  {
   #home h3 { 
     font-size: 1.5rem;
@@ -76,6 +77,14 @@
 #home p a,
 #home p img {
 	display: none;	
+}
+
+@media only screen and (max-width : 768px) and (orientation:landscape)  {
+  #home article p {
+    position: relative;
+    top: -20px;
+    font-weight: 800;
+  }
 }
 
 #home span {
@@ -133,13 +142,13 @@
 
 @media only screen and (max-width: 480px) {
   #home br {
-		display: none  !important;
+		display: none !important;
 	}
   #home span {
-		display: inline  !important;
+		display: inline !important;
 	  left: 0 !important;
-		top: 0  !important;
-		padding: inherit  !important;
+		top: 0 !important;
+		padding: inherit !important;
 	  background-color: transparent !important;
 	  color: inherit !important;
 		font-size: inherit !important;
