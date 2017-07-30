@@ -62,7 +62,7 @@ nav ul {
 } @media only screen and (max-width : 768px) and (orientation:landscape)  {
   nav ul {
 		width: 70%;
-		margin: 48px auto 20px;
+		margin: 62px auto 20px;
 	  min-height: 48px;
 	}
 }
