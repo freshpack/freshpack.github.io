@@ -156,8 +156,12 @@
 
   function onScroll(e){
     var scrollPosition = $(document).scrollTop();
-    $('nav a').each(function () {
+    var links = $('nav a');
+    links.each(function () {
       var currentLink = $(this);
+      if(currentLink[0] === links.last()[0]) {
+        return;
+      }
       var refElement = $(currentLink.attr("href"));
       if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
         $('nav ul li a').removeClass("active");
