@@ -56,13 +56,12 @@ nav ul {
 } @media only screen and (max-width : 768px) {
   nav ul {
 		display: none;
-		margin-top: 48px;
+		margin: 62px auto 20px;
 		margin-bottom: 25px;
 	}
 } @media only screen and (max-width : 768px) and (orientation:landscape)  {
   nav ul {
 		width: 70%;
-		margin: 62px auto 20px;
 	  min-height: 48px;
 	}
 }
@@ -86,7 +85,7 @@ nav ul li a {
 	line-height: 42px; 
   font-size: 1.4rem;
   
-} @media only screen and (max-width : 768px) and (orientation:landscape)  {
+} @media only screen and (max-width : 768px) {
   nav ul li a {
 		line-height: 32px;
 	}
