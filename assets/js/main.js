@@ -21,7 +21,10 @@
     var titles = [];
     
     var item = '<ul>';
-    item += '<li><a class="active" href="#home">Freshpack</a></li>';
+    item += '' +
+    '<li><a class="active" href="#home">' + 
+      ($(window).width() > 768 ? 'Freshpack' : 'Home') +
+    '</a></li>';
 
     dom.find('a strong').each(function(index) {
       var title = $(this).text();
