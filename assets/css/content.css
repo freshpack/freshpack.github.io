@@ -30,6 +30,7 @@
 } @media only screen and (max-width : 768px) and (orientation:landscape)  {
   .content > section > article { 
     padding: 50px 0;
+    font-size: 1.35rem;
 	}
 }
 
