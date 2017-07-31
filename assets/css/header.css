@@ -87,7 +87,7 @@ nav ul li a {
   
 } @media only screen and (max-width : 768px) {
   nav ul li a {
-		line-height: 32px;
+		line-height: 35px;
 	}
 }
 
