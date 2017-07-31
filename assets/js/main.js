@@ -65,7 +65,7 @@
         );
         section = section.replace(
           'boilerplates and installs',
-          'boilerplates and<br/>installs'
+          'boilerplates and <br/>installs'
         );
         section = section.replace('*', '');
         
