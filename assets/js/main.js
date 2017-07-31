@@ -95,6 +95,8 @@
     .then(function() {
       updateStartHeight();
 
+      $( 'header h3' ).letterdropFx();
+
       $('#home').css({
         "min-height": $(window).height(),
         "background-image": 'url(assets/img/bg-1.jpg)',

@@ -1,12 +1,11 @@
-
-.letterDrop {
+.letterdrop {
   position: relative;
   display: inline-block;
   transform: rotateX(-90deg);
-  animation: letterDrop 2.3s ease 1 normal forwards;
+  animation: letterdrop 2.3s ease 1 normal forwards;
 }
 
-@keyframes letterDrop {
+@keyframes letterdrop {
   10% {
       opacity: 0.5;
   }
