@@ -64,7 +64,7 @@
           'Command line tool for a quick development start of React apps.',
           '<span class="span-1">Command line tool</span> <br/>' +
           '<span class="span-2">for a quick development start of </span> <br/>' +
-          '<span class="span-3">React apps</span>.'
+          '<span class="span-3">React apps</span>. <br/>'
         );
         section = section.replace(
           'boilerplates and installs',
